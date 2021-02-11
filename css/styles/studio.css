@@ -1,0 +1,82 @@
+/* 
+    Font Styles:
+    Roboto 900;
+*/
+
+.hero {
+    background-color: var(--color-footback);
+}
+
+.hero h1 {
+    width: calc(100vw*0.435);
+    font-weight: 900;
+    font-size: 3.14285714rem;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-antiaccent);
+    margin: 0 auto calc(100vw* 0.01875) auto;
+}
+
+.hero a {
+    width: calc(100vw* 0.125);
+    height: calc(100vw* 0.03125);
+    font-weight: bold;
+    font-size: 1.14285714rem;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: var(--color-antiaccent);
+    background-color: var(--color-accent);
+    box-shadow: 0px calc(100vw* 0.0025) calc(100vw* 0.0025) rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.work h2:not(.super) {
+    position: absolute;
+    top: -1984px;
+    left: -1984px;
+}
+
+.work h3 {
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--color-headlight);
+}
+
+.super {
+    font-weight: bold;
+    font-size: 2.57142857rem;
+    line-height: 1.167;
+    text-align: center;
+    color: var(--color-headlight);
+}
+
+.team {
+    background-color: var(--color-team);
+}
+
+.team h3 {
+    font-weight: 500;
+    color: var(--color-headlight);
+}
+
+.team h3,
+.team p {
+    font-size: 1.14285714rem;
+    line-height: 1.1875;
+    text-align: center;
+}
+
+.team li {
+    background: var(--color-antiaccent);
+    height: calc(100vw*0.23);
+    box-shadow: 0px calc(100vw* 0.000625) calc(100vw* 0.001875) rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}

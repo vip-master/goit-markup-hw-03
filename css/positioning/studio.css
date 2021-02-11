@@ -1,0 +1,35 @@
+.hero {
+    height: calc(100vw*0.375);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work .centrion,
+.work .centrion div,
+.team .centrion {
+    padding-top: calc(100vw* 0.05875);
+}
+
+.team .centrion,
+.work .centrion {
+    padding-bottom: calc(100vw* 0.05875);
+}
+
+.super {
+    padding-bottom: calc(100vw* 0.03125);
+}
+
+main ul {
+    column-gap: calc(100vw*0.01875);
+}
+
+.textcard {
+    align-items: center;
+    padding: calc(100vw* 0.015) calc(100vw* 0.038125) calc(100vw* 0.015) calc(100vw* 0.038125);
+}
+
+.textcard>p {
+    margin-top: calc(100vw* 0.00625);
+}

@@ -1,0 +1,12 @@
+main h1 {
+    font-size: 2.14285714rem;
+    line-height: 1.2;
+    font-style: bold;
+    color: var(--color-headlight);
+}
+
+main ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: calc(100vw* 0.0125) 0 calc(100vw* 0.0125) 0;
+}
