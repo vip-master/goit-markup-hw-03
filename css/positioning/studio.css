@@ -26,6 +26,10 @@ main ul {
     column-gap: 30px;
 }
 
+.work li {
+    width: 270px;
+}
+
 .textcard {
     align-items: center;
     padding: 30px 59px 30px 60px;
