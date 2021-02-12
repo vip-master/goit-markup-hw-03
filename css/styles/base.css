@@ -31,14 +31,11 @@ address {
     font-style: unset;
 }
 
-html {
-    font-size: calc(var(--coca-cola) * 0.00875);
-}
-
 body {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-text);
@@ -58,7 +55,7 @@ header {
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: bold;
-    font-size: 1.85714286em;
+    font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--color-headlight);
@@ -97,6 +94,7 @@ footer address a:first-child {
 a:hover,
 a:focus,
 a.logo:focus,
-a.logo:hover {
+a.logo:hover,
+footer address a:hover {
     color: var(--color-accent);
 }

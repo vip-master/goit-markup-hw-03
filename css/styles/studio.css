@@ -8,22 +8,22 @@
 }
 
 .hero h1 {
-    width: calc(var(--coca-cola)*0.435);
+    width: 696px;
     font-weight: 900;
-    font-size: 3.14285714rem;
+    font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-antiaccent);
-    margin: 0 auto calc(var(--coca-cola)* 0.01875) auto;
+    margin: 0 auto 30px auto;
 }
 
 .hero a {
-    width: calc(var(--coca-cola)* 0.125);
-    height: calc(var(--coca-cola)* 0.03125);
+    width: 200px;
+    height: 50px;
     font-weight: bold;
-    font-size: 1.14285714rem;
+    font-size: 16px;
     line-height: 1.87;
     display: flex;
     align-items: center;
@@ -32,15 +32,9 @@
     letter-spacing: 0.06em;
     color: var(--color-antiaccent);
     background-color: var(--color-accent);
-    box-shadow: 0px calc(var(--coca-cola)* 0.0025) calc(var(--coca-cola)* 0.0025) rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     margin: 0 auto;
-}
-
-.work h2:not(.super) {
-    position: absolute;
-    top: -1984px;
-    left: -1984px;
 }
 
 .work h3 {
@@ -52,7 +46,7 @@
 
 .super {
     font-weight: bold;
-    font-size: 2.57142857rem;
+    font-size: 36px;
     line-height: 1.167;
     text-align: center;
     color: var(--color-headlight);
@@ -69,14 +63,14 @@
 
 .team h3,
 .team p {
-    font-size: 1.14285714rem;
+    font-size: 16px;
     line-height: 1.1875;
     text-align: center;
 }
 
 .team li {
     background: var(--color-antiaccent);
-    height: calc(var(--coca-cola)*0.23);
-    box-shadow: 0px calc(var(--coca-cola)* 0.000625) calc(var(--coca-cola)* 0.001875) rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 270px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }

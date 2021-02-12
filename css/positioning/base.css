@@ -1,20 +1,15 @@
-:root {
-    --coca-cola: 1600px;
-    /* змінна відносно якої все масштабується, визначає ширину сторінки*/
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    width: var(--coca-cola);
+    width: 1600px;
     height: auto;
 }
 
 ul {
-    max-width: var(--coca-cola);
+    max-width: 1600px;
 }
 
 img {
@@ -37,6 +32,7 @@ address,
 .centrion {
     width: 73.125%;
     margin: auto;
+    padding: 94px 0 94px 0;
 }
 
 .textcard {
@@ -44,37 +40,46 @@ address,
     flex-direction: column;
 }
 
+.disable {
+    position: absolute;
+    top: -1984px;
+    left: -1984px;
+}
+
 
 /* Header */
 
 header {
-    height: calc(var(--coca-cola)* 0.05);
+    height: 80px;
 }
 
 header nav {
-    column-gap: calc(var(--coca-cola)* 0.058125);
+    column-gap: 93px;
 }
 
 header ul,
 header address {
-    column-gap: calc(var(--coca-cola)*0.03125);
+    column-gap: 50px;
+}
+
+header .centrion {
+    padding: 0;
 }
 
 
 /* Footer */
 
-footer {
-    width: var(--coca-cola);
-    height: calc(var(--coca-cola)* 0.1575);
-}
-
 footer>div {
-    padding: calc(var(--coca-cola)* 0.0375) 0 0 0;
+    padding: 60px 0 60px 0;
 }
 
 footer address {
-    margin-top: calc(var(--coca-cola)*0.0125);
+    margin-top: 20px;
     flex-direction: column;
     align-items: flex-start;
-    row-gap: calc(var(--coca-cola)* 0.005625);
+    row-gap: 9px;
+}
+
+footer .centrion {
+    padding: 60px 0 60px 0;
 }

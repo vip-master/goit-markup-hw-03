@@ -1,29 +1,27 @@
 ul.buttons {
     justify-content: center;
-    column-gap: calc(var(--coca-cola)*0.005);
-    margin-top: calc(var(--coca-cola)* 0.05875);
-    margin-bottom: calc(var(--coca-cola)* 0.03125);
+    column-gap: 8px;
+    margin-bottom: 56px;
 }
 
 ul.cards {
-    column-gap: calc(var(--coca-cola)*0.01875);
-    row-gap: calc(var(--coca-cola)*0.01875);
-    margin-bottom: calc(var(--coca-cola)* 0.05875);
+    column-gap: 30px;
+    row-gap: 30px;
     flex-wrap: wrap;
     align-items: initial;
     justify-content: initial;
 }
 
-ul.cards>li {
-    width: calc(var(--coca-cola)*0.23125);
-    height: calc(var(--coca-cola)*0.2525);
-}
-
 .textcard {
     align-items: flex-start;
-    padding: calc(var(--coca-cola)* 0.0125) calc(var(--coca-cola)* 0.015) calc(var(--coca-cola)* 0.0125) calc(var(--coca-cola)* 0.015);
+    padding: 20px 24px 20px 24px;
 }
 
 .textcard>p {
-    margin-top: calc(var(--coca-cola)* 0.0025);
+    margin-top: 4px;
+}
+
+.cards li {
+    width: 370px;
+    height: 404px;
 }
