@@ -30,9 +30,9 @@ address,
 }
 
 .centrion {
-    width: 73.125%;
-    margin: auto;
-    padding: 94px 0 94px 0;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15xp;
 }
 
 .textcard {

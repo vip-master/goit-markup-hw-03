@@ -14,8 +14,12 @@
     margin-top: 10px;
 }
 
-.photos {
-    margin-top: 94px;
+section:not(.hero) {
+    padding: 94px 0 94px 0;
+}
+
+section.work {
+    padding-bottom: 0;
 }
 
 main ul {
