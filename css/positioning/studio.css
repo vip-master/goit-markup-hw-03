@@ -1,5 +1,5 @@
 .hero {
-    height: calc(100vw*0.375);
+    height: calc(var(--coca-cola)*0.375);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,27 +9,27 @@
 .work .centrion,
 .work .centrion div,
 .team .centrion {
-    padding-top: calc(100vw* 0.05875);
+    padding-top: calc(var(--coca-cola)* 0.05875);
 }
 
 .team .centrion,
 .work .centrion {
-    padding-bottom: calc(100vw* 0.05875);
+    padding-bottom: calc(var(--coca-cola)* 0.05875);
 }
 
 .super {
-    padding-bottom: calc(100vw* 0.03125);
+    padding-bottom: calc(var(--coca-cola)* 0.03125);
 }
 
 main ul {
-    column-gap: calc(100vw*0.01875);
+    column-gap: calc(var(--coca-cola)*0.01875);
 }
 
 .textcard {
     align-items: center;
-    padding: calc(100vw* 0.015) calc(100vw* 0.038125) calc(100vw* 0.015) calc(100vw* 0.038125);
+    padding: calc(var(--coca-cola)* 0.015) calc(var(--coca-cola)* 0.038125) calc(var(--coca-cola)* 0.015) calc(var(--coca-cola)* 0.038125);
 }
 
 .textcard>p {
-    margin-top: calc(100vw* 0.00625);
+    margin-top: calc(var(--coca-cola)* 0.00625);
 }

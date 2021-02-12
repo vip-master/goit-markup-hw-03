@@ -28,13 +28,13 @@ button {
     color: var(--color-headlight);
     background: var(--color-team);
     border-radius: 4px;
-    padding: calc(100vw* 0.00375) calc(100vw* 0.01375) calc(100vw* 0.00375) calc(100vw* 0.01375);
+    padding: calc(var(--coca-cola)* 0.00375) calc(var(--coca-cola)* 0.01375) calc(var(--coca-cola)* 0.00375) calc(var(--coca-cola)* 0.01375);
 }
 
 button:hover {
     color: var(--color-antiaccent);
     background: var(--color-accent);
-    box-shadow: 0px 3px calc(100vw* 0.000625) rgba(0, 0, 0, 0.1), 0px calc(100vw* 0.000625) calc(100vw* 0.000625) calc(100vw* 0.00125) rgba(0, 0, 0, 0.08), 0px calc(100vw* 0.000625) calc(100vw* 0.00125) calc(100vw* 0.000625) calc(100vw* 0.00125) rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px calc(var(--coca-cola)* 0.000625) rgba(0, 0, 0, 0.1), 0px calc(var(--coca-cola)* 0.000625) calc(var(--coca-cola)* 0.000625) calc(var(--coca-cola)* 0.00125) rgba(0, 0, 0, 0.08), 0px calc(var(--coca-cola)* 0.000625) calc(var(--coca-cola)* 0.00125) calc(var(--coca-cola)* 0.000625) calc(var(--coca-cola)* 0.00125) rgba(0, 0, 0, 0.12);
 }
 
 ul.cards>li {

@@ -5,6 +5,7 @@
 */
 
 :root {
+    /* --coca-cola: 100vw; */
     --color-accent: #2196F3;
     --color-text: #757575;
     --color-headlight: #212121;
@@ -31,7 +32,7 @@ address {
 }
 
 html {
-    font-size: calc(100vw * 0.00875);
+    font-size: calc(var(--coca-cola) * 0.00875);
 }
 
 body {
